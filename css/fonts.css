@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Roboto-300;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-400;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-700;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: RedHatDisplay-900;
+  src: url(../fonts/RedHatDisplay/RedHatDisplay-Black.ttf);
+}
+/*# sourceMappingURL=fonts.css.map */
