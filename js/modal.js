@@ -28,20 +28,3 @@ var btn = document.querySelector('.why__submit'), // Главная кнопка
 	})
 
 
-function validate() {
-	var userName = document.getElementById("userName");
-	var userPassword = document.getElementById("userPassword");
-	var modalValidator = document.querySelector('.modal__validation-erorrs');
-	if(!userName.value) {
-		modalValidator.classList.add('modal__validation-erorrs-active-name');
-		return false;
-	}
-
-	if(!userPassword.value) {
-		modalValidator.classList.add('modal__validation-erorrs-active-password');
-		return false;
-	}
-
-	return true;
-
-}
